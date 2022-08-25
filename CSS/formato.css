@@ -1,5 +1,5 @@
 body{
-    background-color: #ffff;
+    background-color: #ebe265e0;
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -7,10 +7,9 @@ body{
 }
 
 #paginaInicial{
-    border:2px solid #ebe265e0;
-    background-color: #ebe265e0;
-    color:#000;
-    text-align:left;
+    background-color :solid #ebe265e0;
+    color: #fff;
+    text-align: left;
      
 
 }
@@ -19,7 +18,7 @@ body{
 }
 h1{
     margin-left:27%;
-    color: #ffff;
+    color: black;
     width: 50%;
     height: 30%;
     padding-top: 0px;
@@ -27,7 +26,7 @@ h1{
     margin-top: -8px;
 }
 h2{
-    margin-left:30%;
+    margin-left:40%;
     color: black;
     width: 50%;
     height: 30%;
@@ -45,14 +44,15 @@ h4{
     margin-top: -40px;
 }
     
-ul{
-    margin-left:50%;
-    color: #ffff;
-    width: 50%;
-    height: 30%;
-    padding-top: 0px;
-    padding-bottom: 10px;
-    margin-top: -8px;
+ul,a{
+    background: linear-gradient(#fff, #ebe265e0);;
+    width: 80%;
+    height: 10%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: -2px;
+    color: red;
+    margin: 4%;
 }
 #item1{
     margin:0;
@@ -61,4 +61,15 @@ ul{
     font-size: 20px;
     color:#000
 }
+li{
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    list-style: none;
+    display: inline;
+    border: 2px solid #223300;
+    padding: 20px;   
+    background-color: #223300;
+    font-weight: bold;
+    text-align: center;
+}
+
 
